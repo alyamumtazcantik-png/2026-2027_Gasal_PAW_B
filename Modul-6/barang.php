@@ -4,10 +4,10 @@ include 'koneksi.php';
 $pesan = "";
 
 if (isset($_POST['simpan'])) {
-    $kode = $_POST['kode_barang'];
+    $kode = $_POST['ksode_barang'];
     $nama = $_POST['nama_barang'];
     $harga = $_POST['harga'];
-    $stok = $_POST['stok'];
+    $stok = $_POST['stoks'];
 
     $sql = "INSERT INTO barang
             (kode_barang, nama_barang, harga, stok)
